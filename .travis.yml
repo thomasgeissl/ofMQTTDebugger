@@ -10,4 +10,5 @@ script:
   - source ./ofTravis/common/export.sh
   - source ./ofTravis/${TRAVIS_OS_NAME}/install_oF.sh
   - source ./ofTravis/common/compile_app.sh
+  - source ./ofTravis/common/package_app.sh
 #   - source ./ofTravis/common/compile_addon_examples.sh
